@@ -100,8 +100,8 @@ const fondoTitulo = [
 
 // Aqui puedes EDITAR las listas de imágenes, GIFs y textos para cada transicion
 const opciones = [
-    { img: 'kirbyapa.gif', text: 'He estado escuchando una cancion... ❤️👀', gif: 'img/piano.gif' },
-    { img: 'tite.jpeg', text: '❤️Y siempre que la escucho pienso en ti 💕', gif: 'img/amor.gif' }
+    { img: 'charmander.gif', text: 'He estado escuchando una cancion...❤️👀', gif: 'kirby_audi.gif' },
+    { img: 'tite.jpeg', text: 'Y cuando la escucho pienso en ti...💕', gif: 'kirbyfeli.gif' }
 ];
 
 const musicaSrc = "Musica.mp3"; // Aqui se cambia el archivo por otra cancion
@@ -180,3 +180,4 @@ pauseBtn.addEventListener('click', () => {
     lyricsTimeouts.forEach(timeout => clearTimeout(timeout));
     lyricsTimeouts = []; // Vaciar la lista de timeouts
 });
+    
