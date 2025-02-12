@@ -3,7 +3,7 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
     
-    ; /* 1 / 1.2 */
+     /* 1 / 1.2 */
 
     
 
@@ -357,7 +357,7 @@ button {
         .imagen {
             width: 80%;
             height: auto;
-            top: 42%;
+            top: 50%;
         }
     
         .gif {
@@ -374,8 +374,8 @@ button {
     
         button {
             font-size: 35px;
-            top: 65%;
-            left: 24%;
+            top: 70%;
+            left: 30%;
         }
     
         .button2 {
